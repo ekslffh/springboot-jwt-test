@@ -21,6 +21,10 @@ repositories {
 	mavenCentral()
 }
 
+ext {
+	JJWT_VERSION = "0.12.3"
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -28,6 +32,14 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// JWT Library
+	implementation "io.jsonwebtoken:jjwt-api:${JJWT_VERSION}"
+	runtimeOnly "io.jsonwebtoken:jjwt-gson:${JJWT_VERSION}"
+	runtimeOnly "io.jsonwebtoken:jjwt-impl:${JJWT_VERSION}"
+
+	// Spring Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 tasks.named('test') {

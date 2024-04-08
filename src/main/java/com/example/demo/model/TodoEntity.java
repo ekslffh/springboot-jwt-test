@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Table(name = "Todo")
-public class TodoEntity {
+public class TodoEntity { // 할일목록 엔터티
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id; // 이 오브젝트의 아이디

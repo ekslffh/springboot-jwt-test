@@ -11,8 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-//@Table(uniqueConstraints = {@UniqueConstraint(columnNames = "email")}) // 중복값 제한
-public class UserEntity {
+public class UserEntity { // 사용자 엔터티
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id; // 사용자에게 고유하게 부여되는 id

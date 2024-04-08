@@ -1,6 +1,6 @@
 # springboot-jwt-test
 
-[Json Web Token 개념 및 구현내용 블로그 정리](https://www.notion.so/042f299ad8dc41098374e5db09fe89d4?v=2aaf88da62df4ed5908feeb037db2e7a&pvs=4)
+[Json Web Token 개념 및 구현내용 블로그 정리](https://velog.io/@ekslffh/JWT-%EC%9D%B8%EC%A6%9D-%EA%B5%AC%ED%98%84)
 
 <img width="885" alt="스크린샷 2024-04-08 오후 7 18 42" src="https://github.com/ekslffh/springboot-jwt-test/assets/66450927/b7490eb4-3a81-427e-8fc1-86cad16fea23">
 
